@@ -1,26 +1,22 @@
 {
   "name": "a04-ohsay22",
   "version": "1.0.0",
-  "description": "This assignment will help you stand up a web API using Express and the module that you produced for a03.",
+  "description": "This assignment will set up API endpoints with our assignment from a03.",
   "main": "server.js",
   "type": "module",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "node server.js --port=5555"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a04-ohsay22.git"
   },
-  "author": "",
+  "author": "ohsay22",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a04-ohsay22/issues"
   },
-  "homepage": "https://github.com/comp426-2023-spring/a04-ohsay22#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a04-ohsay22#readme",
   "dependencies": {
     "curl": "^0.1.4",
     "express": "^4.18.2",
